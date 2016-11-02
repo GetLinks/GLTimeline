@@ -42,15 +42,14 @@ open class GLTimelineView : UIView {
         pathForPoint().stroke()
     }
     
-    open static func getTimeLineType(_ indexPath:IndexPath, tableView:UITableView) -> LineType {
-        let rows = tableView.numberOfRows(inSection: (indexPath as NSIndexPath).section)
-        if rows == 1 {
+    open static func getTimeLineType(_ position:Int, items:Int) -> LineType {
+        if items == 1 {
             return .onlyOne
         }
-        if (indexPath as NSIndexPath).row == 0 {
+        if position == 0 {
             return .begin
         }
-        if (indexPath as NSIndexPath).row + 1 == rows {
+        if position + 1 == items {
             return .end
         }
         return .normal
