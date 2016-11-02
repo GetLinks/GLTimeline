@@ -32,7 +32,7 @@ We recommend to use the timeline view in your storyboard. Just add a plain view 
 
 ```swift
 @IBOutlet weak var timeLineView: GLTimelineView!
-timeLineView.lineType = GLTimelineView.getTimeLineType(indexPath,tableView: tableView)
+timeLineView.lineType = GLTimelineView.getTimeLineType(position,items: numberOfItems)
 timeLineView.lineColor  = UIColor.black
 timeLineView.pointRadius = 5.0
 timeLineView.lineWidth = 1.0
