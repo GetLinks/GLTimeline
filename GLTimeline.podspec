@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "GLTimeline"
   s.version      = "0.0.1"
   s.summary      = "GLTimeline is a simple timeline view implemented by UIView written in Swift 3.0"
-  s.description  = "GLTimeline is a simple timeline view implemented by UIView written in Swift 3.0"
+  s.description  = "GLTimeline is a simple timeline view implemented by UIView written in Swift 3.0 that original use in Getlinks Application Project."
 
   s.homepage     = "https://github.com/GetLinks/GLTimeline"
   s.license      = "MIT"
