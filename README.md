@@ -25,10 +25,10 @@ We recommend to use the timeline view in your storyboard. Just add a plain view 
 
 
 ###  Timeline Customization
-lineType set type for each timelineview by pass indexPath and tableView into `getTimeLineType`
+`lineType` set type for each timelineview by pass indexPath and tableView into `getTimeLineType()`  
 `lineColor` the color of  point and line  
 `pointRadius` the point size  
-`lineWidth` the with of line  
+`lineWidth` the width of line  
 
 ```swift
 @IBOutlet weak var timeLineView: GLTimelineView!
