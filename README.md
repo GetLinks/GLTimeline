@@ -20,7 +20,7 @@ import GLTimeline
 ```
 
 ### Integration
-We recommend to use the timeline view in your storyboard. Just add a plain view and set the custom class and the module property to GLTimelineView.
+We recommend to use the timeline view in your storyboard. Just add a plain view and set the custom class and the module property to GLTimelineView.  
 ![storyboard](/screenshots/storyboard.png "storyboard")
 
 
