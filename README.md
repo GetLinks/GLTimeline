@@ -38,6 +38,9 @@ timeLineView.pointRadius = 5.0
 timeLineView.lineWidth = 1.0
 ```
 
+##[View Releases]("https://github.com/GetLinks/GLTimeline/releases")
+
+If you Watch this repository, GitHub will send you an email every time I publish an update.
 
 ## License
 
